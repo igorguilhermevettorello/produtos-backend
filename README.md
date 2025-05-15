@@ -15,15 +15,14 @@ API para cadastro de produtos e listagem de categorias.
 REQUERIDO 
 ------------
 
-PHP 7.4.
-MySQL
+PHP 7.4 / MySQL
 
-CONFIGURATION
+CONFIGURAÇÃO
 -------------
 
 ### Database
 
-Edit the file `config/db.php` with real data, for example:
+Editar o arquivo `config/db.php` com o banco de dados:
 
 ```php
 return [
@@ -36,7 +35,7 @@ return [
 ```
 
 
-EXECUCAO DO PROJETO
+EXECUÇÃO DO PROJETO
 ------------
 ~~~
 composer update  
